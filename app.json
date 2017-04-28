@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/index/index",
+    "pages/user/wallet/wallet",
+    "pages/user/feedback/feedback",
+    "pages/user/help/help",
+    "pages/user/setting/setting",
+    "pages/user/ridePreference/ridePreference",
+    "pages/user/travel/travel"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#35353A",
+    "navigationBarTitleText": "hzhwalkbydream",
+    "navigationBarTextStyle":"#fff"
+  }
+}

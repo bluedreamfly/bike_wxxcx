@@ -1,0 +1,30 @@
+<template name="list-item">
+  <view 
+    class="list-item " 
+    hover-class="hover-class"
+    data-url="{{url}}"  
+    bindtap="bindViewTap" 
+  >
+    <view class="list__item-wrap" style="{{!showBorder ? 'border-width:0' : '' }}">
+      <text><text class="iconfont {{icontype}}"></text>{{title}}</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+  </view>
+</template>
+
+<view class="container">
+  <view class="header">
+    <view class="header_wrap">
+      <image class="avator" src="{{userInfo.avatarUrl}}"></image>
+      <text class="username">15259169926</text>
+    </view>
+  </view>
+  <view class="link-list">
+    <block wx:for="{{listData}}" wx:key="{{index}}">
+      <template 
+        is="list-item" 
+        data="{{...item, showBorder: index < listData.length - 1}}"
+      ></template>
+    </block>
+  </view>
+</view>

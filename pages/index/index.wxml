@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="iconfont icon-user" bindtap="bindViewTap"></text>
+     <text class="iconfont icon-sousuo"></text>
+  </view>
+  <map id="map" longitude="113.324520" latitude="23.099994" scale="14"  show-location style="width: 100%"></map>
+</view>

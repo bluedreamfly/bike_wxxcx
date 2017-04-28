@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320rpx;
+    background-color: #07A9FA;
+    margin-bottom: 20rpx;
+}
+.header_wrap {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /*justify-content: center*/
+}
+.header .avator {
+    
+    width: 140rpx;
+    height: 140rpx;
+    margin-bottom: 35rpx;
+    border-radius: 100%;
+}
+.header .username {
+    color: #fff;
+    font-size: 34rpx;
+}
+.link-list {
+    border-top: 1rpx solid #E6E6E6;
+    border-bottom: 1rpx solid #E6E6E6;
+    background-color: #fff;
+}
+.list-item {
+    padding-left: 30rpx;
+}
+
+.list__item-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90rpx;
+    border-bottom: 1rpx solid #E6E6E6;
+    color: #333;
+}
+
+.list__item-wrap .iconfont {
+    margin-right: 20rpx;
+}
